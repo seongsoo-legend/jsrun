@@ -84,3 +84,36 @@
 // }
 
 // let nimo = movie["nimo find"];
+
+// let name = "seongsoo";
+
+// if (name.length > 10) {
+//   console.log("너가 성수구나");
+// } else {
+//   console.log("넌 누구냐");
+// }
+
+// let try1 = false;
+// let hello = true;
+// let script = true;
+
+// if(try1) {
+//   console.log("1");
+// } else if (hello) {
+//   console.log("2");
+// } else if (script) {
+//   console.log("3");
+// } else {
+//   console.log("4");
+// }
+
+let name = "어머니";
+
+if(name === "아버지") {
+  console.log("아버지");
+} else if(name === "어머니") {
+  console.log("어머니");
+} else {
+  console.log("누구셈?");
+}
+
