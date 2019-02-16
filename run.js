@@ -107,13 +107,114 @@
 //   console.log("4");
 // }
 
-let name = "어머니";
+// let name = "어머니";
 
-if(name === "아버지") {
-  console.log("아버지");
-} else if(name === "어머니") {
-  console.log("어머니");
-} else {
-  console.log("누구셈?");
-}
+// if(name === "아버지") {
+//   console.log("아버지");
+// } else if(name === "어머니") {
+//   console.log("어머니");
+// } else {
+//   console.log("누구셈?");
+// }
+
+// var sleep = 0;
+
+// while (sleep < 100) {
+//   console.log(`양을 ${sleep}까지 세었다 `);
+//   sleep++;
+// }
+
+// console.log("ZZzzzz")
+
+// for (var sleep = 0; sleep < 10; sleep++) {
+//     console.log(`양을 ${sleep}까지 세었다 `);
+// }
+
+// console.log("zzzz")
+
+// var hi = 3;
+
+// for(var i = 0; i < hi; i++) {
+//   console.log("hi")
+// }
+
+// let animals = ["사자", "홍학", "북극곰", "보아뱀"];
+//
+// for (let i = 0; i < animals.length; i++) {
+//     console.log(`이 동물원에는 ${animals[i]}가 삽니다.`);
+// }
+//
+// let name = 'seongsoo';
+//
+// for (let i = 0; i < name.length; i++) {
+//     console.log(`My name is ${name[i]}.`)
+// }
+
+// for (let x = 3; x < 10000; x = 3 * x) {
+//     console.log(x);
+// }
+//
+// let x = 3;
+//
+// while (x < 10000) {
+//    x = x * 3
+//    console.log(x);
+// }
+
+// let animals = ["cats", "dog", "baam", "monkey"];
+//
+// for (i = 0; i< animals.length; i++) {
+//     animals[i] = "Awesome " + animals[i];
+// }
+//
+// console.log(animals);
+
+
+// let alphabet = "abcdefghijklmnopqrstuvwxyz";
+//
+// let randomString = "";
+//
+// let stringLength = 6;
+//
+// for (var i = 0; i < stringLength; i ++) {
+//     randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+// }
+
+// console.log(randomString);
+
+// for (var i = 0; i < stringLength; i++) {
+//     randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+// }
+
+// var input = "javascript is awesome";
+// var output = " ";
+// for (let i = 0; i < input.length; i++) {
+//     if (input[i] === "a") {
+//         output += "4";
+//     } else if (input[i] === "e") {
+//         output += "3";
+//     } else if (input[i] === "i") {
+//         output += "1";
+//     } else if (input[i] === "o") {
+//         output += "0";
+//     } else {
+//         output += input[i];
+//     }
+// }
+
+// for (let i = 0; i < input.length; i ++) {
+//     if (input[i] === "a") {
+//         output += 4;
+//     } else if (input[i] === "e") {
+//         output += "4";
+//     } else if (input[i] === "i") {
+//         output += "1";
+//     } else if (input[i] === "o") {
+//         output += "0";
+//     } else {
+//         output += input[i];
+//     }
+// }
+//
+// console.log(output);
 
