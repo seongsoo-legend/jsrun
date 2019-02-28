@@ -1,220 +1,218 @@
-// 배열 공부
-// let colorList = ["푸른", "하얀", "초록", "노랑", "오렌지"];
-// let natureList = ["태양", "달", "구름", "하늘", "무지개"];
-// let wordList = ["눈물", "웃음", "환생", "행복", "기쁨"];
-// let feelList = ["격렬한", "영원한", "평온한", "안락한"]
+// var headingElement = document.getElementById("main-heading");
+// console.log(headingElement.innerHTML);
+// var newHeadingText = prompt("새로운 제목을 입력해주세요.");
+// headingElement.innerHTML = newHeadingText;
+// $('h1').css({'color':'red'});
+// $(function () {
+//
+//     $('h1').css('color', 'red'); // css 속성 하나를 변경;
+//     // h1, .typo:hover {background-color:green;}
+//     // 이벤트가 일어난 그것
+//     $('.typo, h1').mouseover(function () {
+//         //.클래스 typo의 배경색을 green으로 변경
+//         $(this).css('background-color', 'green');
+//     })
+//     .mouseout(function () {
+//         $(this).css('background-color', 'white');
+//     });
+// });
+//
 
-// let color = colorList[Math.floor(Math.random() * colorList.length)];
-// let nature = natureList[Math.floor(Math.random() * natureList.length)];
-// let word = wordList[Math.floor(Math.random() * wordList.length)];
-// let feel = feelList[Math.floor(Math.random() * feelList.length)];
-
-// let userName = `${feel} ${color} ${nature}의 ${word}이다!`;
-
-// console.log(userName);
-
-// let dog = {
-//   legs: 4,
-//   name: "boo",
-//   color: "white",
-//   bark: "walwal",
+// var timeUp = function () {
+//     alert("시간 끝!");
+// }
+//
+// setTimeout(timeUp, 3000)
+//
+// var doHomeworkAlarm = function () {
+//     alert("숙제할 시간입니다!");
 // };
-
-// let cat = {
-//   legs: 4,
-//   name: "baba",
-//   color: "gold",
-//   bark: "nyaong",
+//
+// var timeoutId = setTimeout(doHomeworkAlarm, 60000);
+//
+// clearTimeout(timeoutId);
+//
+//
+// var counter = 1;
+//
+// var printMessage = function () {
+//     console.log("기록을 시작한 지 " + counter + "초 지났습니다.");
+//     counter++;
 // };
-
-// console.log(dog);
-// console.log(cat);
-
-// let bird = {};
-
-// bird["legs"] = 3;
-// bird["name"] = "blue",
-// bird["color"] = "blue";
-
-// let bird = {};
-// bird.legs = 3;
-// bird.name = "blue";
-// bird.color = "blue";
-
-// let animals = [
-//   { kind: "dog", year: 1 },
-//   { kind: "cat", year: 2 },
-//   { kind: "bird", year: 0},
-// ];
-//종류만 가져올때
-// animals[0]["kind"];
-// animals[1]["year"];
-
-// animals[2].kind;
-
-// let seongsoo = { name: "seongsoo", age: 30, luckyNumbers: [2, 5, 10, 28] };
-// let jisoo = { name: "jisoo", age: 34, luckyNumbers: [0, 1, 7,12]};
-// let boo = { name: "boo", age: 1, luckyNumbers: [3, 6, 8, 9]};
-
-// let family = [seongsoo, jisoo, boo];
-
-// let money = {};
-// money["jisoo"] = 30;
-// money["boo"] = 1;
-
-// let movie = {
-//   "nimo find": {
-//     year: 2003,
-//     learningTime: 100,
-//     actor:["brooks", "dne", "alex"],
-//     type: "DVD"
-//   },
-//   "starWas ep6": {
-//     year: 2001,
-//     learningTime: 140,
-//     actor:["boo", "cene", "kax"],
-//     type: "DVD"
-//   },
-//   "harrypoter": {
-//     year: 1996,
-//     learningTime: 150,
-//     actor:["aio", "edene", "uos"],
-//     type: "blue-ray"
-//   }  
-// }
-
-// let nimo = movie["nimo find"];
-
-// let name = "seongsoo";
-
-// if (name.length > 10) {
-//   console.log("너가 성수구나");
-// } else {
-//   console.log("넌 누구냐");
-// }
-
-// let try1 = false;
-// let hello = true;
-// let script = true;
-
-// if(try1) {
-//   console.log("1");
-// } else if (hello) {
-//   console.log("2");
-// } else if (script) {
-//   console.log("3");
-// } else {
-//   console.log("4");
-// }
-
-// let name = "어머니";
-
-// if(name === "아버지") {
-//   console.log("아버지");
-// } else if(name === "어머니") {
-//   console.log("어머니");
-// } else {
-//   console.log("누구셈?");
-// }
-
-// var sleep = 0;
-
-// while (sleep < 100) {
-//   console.log(`양을 ${sleep}까지 세었다 `);
-//   sleep++;
-// }
-
-// console.log("ZZzzzz")
-
-// for (var sleep = 0; sleep < 10; sleep++) {
-//     console.log(`양을 ${sleep}까지 세었다 `);
-// }
-
-// console.log("zzzz")
-
-// var hi = 3;
-
-// for(var i = 0; i < hi; i++) {
-//   console.log("hi")
-// }
-
-// let animals = ["사자", "홍학", "북극곰", "보아뱀"];
 //
-// for (let i = 0; i < animals.length; i++) {
-//     console.log(`이 동물원에는 ${animals[i]}가 삽니다.`);
-// }
 //
-// let name = 'seongsoo';
-//
-// for (let i = 0; i < name.length; i++) {
-//     console.log(`My name is ${name[i]}.`)
-// }
+// var intervalId = setInterval(printMessage, 5000);
 
-// for (let x = 3; x < 10000; x = 3 * x) {
-//     console.log(x);
-// }
+// var leftOfttset = 0;
 //
-// let x = 3;
+// var moveHeading = function () {
+//     $("#heading").offset({ left: leftOfttset });
 //
-// while (x < 10000) {
-//    x = x * 3
-//    console.log(x);
-// }
-
-// let animals = ["cats", "dog", "baam", "monkey"];
+//     leftOfttset++;
 //
-// for (i = 0; i< animals.length; i++) {
-//     animals[i] = "Awesome " + animals[i];
-// }
-//
-// console.log(animals);
-
-
-// let alphabet = "abcdefghijklmnopqrstuvwxyz";
-//
-// let randomString = "";
-//
-// let stringLength = 6;
-//
-// for (var i = 0; i < stringLength; i ++) {
-//     randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
-// }
-
-// console.log(randomString);
-
-// for (var i = 0; i < stringLength; i++) {
-//     randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
-// }
-
-// var input = "javascript is awesome";
-// var output = " ";
-// for (let i = 0; i < input.length; i++) {
-//     if (input[i] === "a") {
-//         output += "4";
-//     } else if (input[i] === "e") {
-//         output += "3";
-//     } else if (input[i] === "i") {
-//         output += "1";
-//     } else if (input[i] === "o") {
-//         output += "0";
-//     } else {
-//         output += input[i];
+//     if (leftOfttset > 200) {
+//         leftOfttset = 0;
 //     }
-// }
+// };
+//
+// setInterval(moveHeading, 30);
+//
+//
+// var clickHandler = function (event) {
+//     console.log("Click! " + event.pageX + " " + event.pageY);
+// };
+//
+// $("h1").click(clickHandler);
 
-// for (let i = 0; i < input.length; i ++) {
-//     if (input[i] === "a") {
-//         output += 4;
-//     } else if (input[i] === "e") {
-//         output += "4";
-//     } else if (input[i] === "i") {
-//         output += "1";
-//     } else if (input[i] === "o") {
-//         output += "0";
-//     } else {
-//         output += input[i];
+// $("html").click(function (event) {
+//     $("#heading").offset({
+//         left: event.pageX,
+//         top: event.pageY
+//     });
+// });
+
+// var direction = "right";
+// var offset = 0;
+// var intervalLength = 120;
+// var clicks = 0;
+//
+// $("#heading").offset({ left: offset, top: offset });
+//
+// var moveHeading = function () {
+//     if (direction === "right") {
+//         $("#heading").offset({ left: offset });
+//         offset++;
+//         if (offset > 200) {
+//             offset = 0;
+//             direction = "down";
+//         }
+//     } else if (direction === "down") {
+//         $("#heading").offset({ top: offset });
+//         offset++;
+//         if (offset > 200) {
+//             offset = 200;
+//             direction = "left";
+//         }
+//     } else if (direction === "left") {
+//         $("#heading").offset({ left: offset });
+//         offset--;
+//         if (offset < 0) {
+//             offset = 200;
+//             direction = "up";
+//         }
+//     } else if (direction === "up") {
+//         $("#heading").offset({ top: offset });
+//         offset--;
+//         if (offset < 0) {
+//             offset = 0;
+//             direction = "right";
+//         }
 //     }
+// };
+//
+// var intervalId = setInterval(moveHeading, intervalLength);
+//
+// $("#heading").click(function () {
+//     clearInterval(intervalId);
+//     intervalLength /= 2;
+//     clicks++;
+//
+//     if (clicks > 10) {
+//         $("#heading").text("You Win.");
+//     } else {
+//         intervalId = setInterval(moveHeading, intervalLength)
+//
+//     }
+// });
+
+// var dog = {
+//     name: "봉구",
+//     legs: 4,
+//     isAwesome: true
+// };
+//
+// dog.name;
+//
+// var speak = function () {
+//     console.log(this.sound + "! 내 이름은 " + this.name + "닷!");
 // }
 //
-// console.log(output);
+// var cat = {
+//     sound: "야옹",
+//     name: "옹디",
+//     speak: speak
+// }
+//
+// var pig = {
+//     sound: "꿀꿀",
+//     name: "팔계",
+//     speak: speak
+// }
+//
+// var hourse = {
+//     sound: "히힝",
+//     name: "프린스",
+//     speak: speak
+// }
 
+var Car = function (x, y) {
+    this.x = x;
+    this.y = y;
+};
+
+Car.prototype.draw = function () {
+    var carHtml = '<img src="http://nostarch.com/images/car.png">';
+
+    this.carElement = $(carHtml);
+
+    this.carElement.css({
+        position: "absolute",
+        left: this.x,
+        top: this.y
+    });
+
+    $("body").append(this.carElement);
+}
+
+Car.prototype.moveRight = function () {
+    this.x += 5;
+
+    this.carElement.css({
+        left: this.x,
+        top: this.y
+    })
+}
+
+Car.prototype.moveLeft = function () {
+    this.x -= 5;
+
+    this.carElement.css({
+        left: this.x,
+        top: this.y
+    })
+}
+
+Car.prototype.moveUp = function () {
+    this.y -= 5;
+
+    this.carElement.css({
+        left: this.x,
+        top: this.y
+    })
+}
+
+Car.prototype.moveDown = function () {
+    this.y += 5;
+
+    this.carElement.css({
+        left: this.x,
+        top: this.y
+    })
+}
+
+
+var tesla = new Car(20, 20);
+var nissan = new Car(100, 200);
+
+tesla.draw();
+nissan.draw();
