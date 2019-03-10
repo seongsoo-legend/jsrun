@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="canvas" width="200" height="200"></canvas>
+
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.arc(50, 50, 20, 0, Math.PI / 2, false);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(100, 50, 20, 0, Math.PI, false);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(150, 50, 20, 0, Math.PI * 2, false);
+        ctx.stroke();
+        // ctx.fillStyle = "SkyBlue";
+        // ctx.beginPath();
+        // ctx.moveTo(100, 100);
+        // ctx.lineTo(100, 60);
+        // ctx.moveTo(130, 30);
+        // ctx.lineTo(10, 60);
+        // ctx.strokeStyle = "Turquoise";
+        // ctx.lineWidth = 4;
+        // ctx.beginPath();
+        // ctx.moveTo(10, 10);
+        // ctx.lineTo(60, 60);
+        // ctx.moveTo(60, 10);
+        // ctx.lineTo(10, 60);
+        // ctx.stroke();
+        // ctx.strokeRect(10, 10, 100, 20);
+        // ctx.fillStyle = "Green";
+        // ctx.fillRect(0, 0, 10, 10);
+        // for (var i = 0; i < 8; i++) {
+        //     ctx.fillRect(i * 10, i * 10, 10, 10);
+        // }
+    </script>
+</body>
+</html>
