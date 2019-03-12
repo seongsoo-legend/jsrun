@@ -1,39 +1,21 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <!--<link rel="stylesheet" href="CSS.css">-->
-    <style>
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form method="GET" action="b.html" id="form1">
-<form method="GET" action="b.html" id="form1">
-    이름: <input type="text" name="id"><br>
-    메시지: <input type="text" name="msg"><br>
-    <input type="submit">
+<form>
+    <fieldset>
+    <legend>회원정보</legend>
+    이메일: <input type="email">
+    이메일: <input type="email">
+    이메일: <input type="email">
+    </fieldset>
 </form>
-<script>
-    var t = document.getElementById("form1");
-    t.onsubmit = function a() {
-        console.log("from property");
-        return false;
-    }
-
-    function b() {
-        console.log("from addEventListener");
-        return false
-    }
-
-    function c() {
-        console.log("from addEventListener-2")
-        return false
-    }
-
-    t.addEventListener("submit", b);
-    t.addEventListener("submit", c);
-
-    t.removeEventListener("submit", b);
-</script>
 </body>
 </html>
-
